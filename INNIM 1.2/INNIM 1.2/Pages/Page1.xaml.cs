@@ -25,15 +25,7 @@ namespace INNIM_1._2.Pages
         public Page1()
         {
             InitializeComponent();
-            try
-            {
                 ZP.ItemsSource = Connect.context.zakazi_programista.ToList();
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)

@@ -24,12 +24,26 @@ namespace INNIM_1._2.Pages
         public Page4()
         {
             InitializeComponent();
-            C.ItemsSource = Connect.context.clients.ToList();
+            try
+            {
+                C.ItemsSource = Connect.context.clients.ToList();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            C.ItemsSource = Connect.context.clients.ToList();
+            try
+            {
+                C.ItemsSource = Connect.context.clients.ToList();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
 
         }
         Window1 window = new Window1();

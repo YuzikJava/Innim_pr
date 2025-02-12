@@ -24,12 +24,26 @@ namespace INNIM_1._2.Pages
         public Page3()
         {
             InitializeComponent();
-            P.ItemsSource = Connect.context.programmisti.ToList();
+            try
+            {
+                P.ItemsSource = Connect.context.programmisti.ToList();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            P.ItemsSource = Connect.context.programmisti.ToList();
+            try
+            {
+                P.ItemsSource = Connect.context.programmisti.ToList();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
         Window1 window = new Window1();
         private void EditP5_Click(object sender, RoutedEventArgs e)

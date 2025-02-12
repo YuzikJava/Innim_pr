@@ -25,13 +25,27 @@ namespace INNIM_1._2.Pages
         public Page1()
         {
             InitializeComponent();
+            try
+            {
                 ZP.ItemsSource = Connect.context.zakazi_programista.ToList();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            ZP.ItemsSource = Connect.context.zakazi_programista.ToList().OrderBy(x => x.nomer_zakaza);
-            ZP.ItemsSource = Connect.context.zakazi_programista.ToList().OrderBy(x => x.status);
+            try
+            {
+                ZP.ItemsSource = Connect.context.zakazi_programista.ToList().OrderBy(x => x.nomer_zakaza);
+                ZP.ItemsSource = Connect.context.zakazi_programista.ToList().OrderBy(x => x.status);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
         Window1 window = new Window1();
         private void EditP1_Click(object sender, RoutedEventArgs e)

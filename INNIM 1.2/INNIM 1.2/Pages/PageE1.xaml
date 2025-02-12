@@ -36,7 +36,6 @@
                 </StackPanel>
             </StackPanel>
             <Button x:Name="BtnSave" Content="Сохранить" Margin="5" Width="150" Height="30" Click="BtnSave_Click"/>
-            <Button x:Name="BtnEdit" Content="Назад" Margin="5" Width="150" Height="30" Click="BtnEdit_Click"/>
         </StackPanel>
     </Grid>
 </Page>

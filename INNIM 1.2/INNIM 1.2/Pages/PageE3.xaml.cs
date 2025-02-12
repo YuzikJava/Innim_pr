@@ -35,11 +35,6 @@ namespace INNIM_1._2.Pages
                 checkNew = false;
             DataContext = p3 = s;
         }
-        Window1 window = new Window1();
-        private void BtnEdit_Click(object sender, RoutedEventArgs e)
-        {
-            window.Close();
-        }
         private void BtnSave_Click(object sender, RoutedEventArgs e)
         {
             if (checkNew)

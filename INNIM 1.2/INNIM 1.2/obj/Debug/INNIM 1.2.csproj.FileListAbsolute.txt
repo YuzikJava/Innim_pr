@@ -1,0 +1,147 @@
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\bin\Debug\INNIM 1.2.exe.config
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\bin\Debug\INNIM 1.2.exe
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\bin\Debug\INNIM 1.2.pdb
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\INNIM 1.2.csproj.AssemblyReference.cache
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\INNIM 1.2.csproj.SuggestedBindingRedirects.cache
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\MainWindow.g.cs
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\App.g.cs
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\INNIM 1.2_MarkupCompile.cache
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\INNIM 1.2_MarkupCompile.lref
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\MainWindow.baml
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\INNIM 1.2.g.resources
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\INNIM_1._2.Properties.Resources.resources
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\INNIM 1.2.csproj.GenerateResource.cache
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\INNIM 1.2.csproj.CoreCompileInputs.cache
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\INNIM 1.2.exe
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\INNIM 1.2.pdb
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\bin\Debug\EntityFramework.dll
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\bin\Debug\EntityFramework.xml
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Pages\LoginPage.g.cs
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Pages\MainPage.g.cs
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\INNIM 1.2_Content.g.cs
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Pages\LoginPage.baml
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Pages\MainPage.baml
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\INNIM 1.2.csproj.CopyComplete
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Pages\Page1.g.cs
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Pages\PageE1.g.cs
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Pages\Page1.baml
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Pages\PageE1.baml
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\bin\Debug\DB.mdf
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\bin\Debug\DB_log.ldf
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Pages\Page2.g.cs
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Pages\Page3.g.cs
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Pages\Page4.g.cs
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Pages\PageE2.g.cs
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Pages\PageE3.g.cs
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Pages\PageE4.g.cs
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Pages\Page2.baml
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Pages\Page3.baml
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Pages\Page4.baml
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Pages\PageE2.baml
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Pages\PageE3.baml
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Pages\PageE4.baml
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Window1.g.cs
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Window1.baml
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\INNIM 1.2.csproj.ResolveComReference.cache
+E:\INNIM 1.2\INNIM 1.2\INNIM 1.2\bin\Debug\DB.mdf
+E:\INNIM 1.2\INNIM 1.2\INNIM 1.2\bin\Debug\DB_log.ldf
+E:\INNIM 1.2\INNIM 1.2\INNIM 1.2\bin\Debug\INNIM 1.2.exe.config
+E:\INNIM 1.2\INNIM 1.2\INNIM 1.2\bin\Debug\INNIM 1.2.exe
+E:\INNIM 1.2\INNIM 1.2\INNIM 1.2\bin\Debug\INNIM 1.2.pdb
+E:\INNIM 1.2\INNIM 1.2\INNIM 1.2\bin\Debug\EntityFramework.dll
+E:\INNIM 1.2\INNIM 1.2\INNIM 1.2\bin\Debug\EntityFramework.SqlServer.dll
+E:\INNIM 1.2\INNIM 1.2\INNIM 1.2\bin\Debug\EntityFramework.xml
+E:\INNIM 1.2\INNIM 1.2\INNIM 1.2\bin\Debug\EntityFramework.SqlServer.xml
+E:\INNIM 1.2\INNIM 1.2\INNIM 1.2\bin\Debug\ru\EntityFramework.resources.dll
+E:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\INNIM 1.2.csproj.AssemblyReference.cache
+E:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\INNIM 1.2.csproj.SuggestedBindingRedirects.cache
+E:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\INNIM 1.2.csproj.ResolveComReference.cache
+E:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\MainWindow.g.cs
+E:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Pages\LoginPage.g.cs
+E:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Pages\MainPage.g.cs
+E:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Pages\Page1.g.cs
+E:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Pages\Page2.g.cs
+E:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Pages\Page3.g.cs
+E:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Pages\Page4.g.cs
+E:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Pages\PageE1.g.cs
+E:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Pages\PageE2.g.cs
+E:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Pages\PageE3.g.cs
+E:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Pages\PageE4.g.cs
+E:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Window1.g.cs
+E:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\App.g.cs
+E:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\INNIM 1.2_Content.g.cs
+E:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\INNIM 1.2_MarkupCompile.cache
+E:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\INNIM 1.2_MarkupCompile.lref
+E:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\MainWindow.baml
+E:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Pages\LoginPage.baml
+E:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Pages\MainPage.baml
+E:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Pages\Page1.baml
+E:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Pages\Page2.baml
+E:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Pages\Page3.baml
+E:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Pages\Page4.baml
+E:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Pages\PageE1.baml
+E:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Pages\PageE2.baml
+E:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Pages\PageE3.baml
+E:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Pages\PageE4.baml
+E:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Window1.baml
+E:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\INNIM 1.2.g.resources
+E:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\INNIM_1._2.Properties.Resources.resources
+E:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\INNIM 1.2.csproj.GenerateResource.cache
+E:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\INNIM 1.2.csproj.CoreCompileInputs.cache
+E:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\INNIM 1.2.csproj.CopyComplete
+E:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\INNIM 1.2.exe
+E:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\INNIM 1.2.pdb
+F:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\INNIM 1.2.csproj.AssemblyReference.cache
+F:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\INNIM 1.2.csproj.ResolveComReference.cache
+F:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\MainWindow.g.cs
+F:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Pages\LoginPage.g.cs
+F:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Pages\MainPage.g.cs
+F:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Pages\Page1.g.cs
+F:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Pages\Page2.g.cs
+F:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Pages\Page3.g.cs
+F:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Pages\Page4.g.cs
+F:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Pages\PageE1.g.cs
+F:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Pages\PageE2.g.cs
+F:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Pages\PageE3.g.cs
+F:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Pages\PageE4.g.cs
+F:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Window1.g.cs
+F:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\App.g.cs
+F:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\INNIM 1.2_Content.g.cs
+F:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\INNIM 1.2_MarkupCompile.cache
+F:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\INNIM 1.2_MarkupCompile.lref
+F:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\INNIM 1.2.exe
+F:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\INNIM 1.2.pdb
+F:\INNIM 1.2\INNIM 1.2\INNIM 1.2\bin\Debug\DB.mdf
+F:\INNIM 1.2\INNIM 1.2\INNIM 1.2\bin\Debug\DB_log.ldf
+F:\INNIM 1.2\INNIM 1.2\INNIM 1.2\bin\Debug\INNIM 1.2.exe.config
+F:\INNIM 1.2\INNIM 1.2\INNIM 1.2\bin\Debug\INNIM 1.2.exe
+F:\INNIM 1.2\INNIM 1.2\INNIM 1.2\bin\Debug\EntityFramework.dll
+F:\INNIM 1.2\INNIM 1.2\INNIM 1.2\bin\Debug\EntityFramework.SqlServer.dll
+F:\INNIM 1.2\INNIM 1.2\INNIM 1.2\bin\Debug\EntityFramework.xml
+F:\INNIM 1.2\INNIM 1.2\INNIM 1.2\bin\Debug\EntityFramework.SqlServer.xml
+F:\INNIM 1.2\INNIM 1.2\INNIM 1.2\bin\Debug\ru\EntityFramework.resources.dll
+F:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\MainWindow.baml
+F:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Pages\LoginPage.baml
+F:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Pages\MainPage.baml
+F:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Pages\Page1.baml
+F:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Pages\Page2.baml
+F:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Pages\Page3.baml
+F:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Pages\Page4.baml
+F:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Pages\PageE1.baml
+F:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Pages\PageE2.baml
+F:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Pages\PageE3.baml
+F:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Pages\PageE4.baml
+F:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\Window1.baml
+F:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\INNIM 1.2.g.resources
+F:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\INNIM_1._2.Properties.Resources.resources
+F:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\INNIM 1.2.csproj.GenerateResource.cache
+F:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\INNIM 1.2.csproj.CoreCompileInputs.cache
+F:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\INNIM 1.2.csproj.Up2Date
+F:\INNIM 1.2\INNIM 1.2\INNIM 1.2\bin\Debug\INNIM 1.2.pdb
+F:\INNIM 1.2\INNIM 1.2\INNIM 1.2\bin\Debug\INNIM 1.2.exe.manifest
+F:\INNIM 1.2\INNIM 1.2\INNIM 1.2\bin\Debug\INNIM 1.2.application
+F:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\INNIM 1.2.exe.manifest
+F:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\INNIM 1.2.application

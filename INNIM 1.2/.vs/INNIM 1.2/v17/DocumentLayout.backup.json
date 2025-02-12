@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\INNIM 1.2\\INNIM 1.2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EDF040B1-410D-4580-9F91-AEBE29EF0AC1}|INNIM 1.2\\INNIM 1.2.csproj|f:\\innim 1.2\\innim 1.2\\innim 1.2\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDF040B1-410D-4580-9F91-AEBE29EF0AC1}|INNIM 1.2\\INNIM 1.2.csproj|solutionrelative:innim 1.2\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDF040B1-410D-4580-9F91-AEBE29EF0AC1}|INNIM 1.2\\INNIM 1.2.csproj|f:\\innim 1.2\\innim 1.2\\innim 1.2\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EDF040B1-410D-4580-9F91-AEBE29EF0AC1}|INNIM 1.2\\INNIM 1.2.csproj|solutionrelative:innim 1.2\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDF040B1-410D-4580-9F91-AEBE29EF0AC1}|INNIM 1.2\\INNIM 1.2.csproj|f:\\innim 1.2\\innim 1.2\\innim 1.2\\pages\\page1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EDF040B1-410D-4580-9F91-AEBE29EF0AC1}|INNIM 1.2\\INNIM 1.2.csproj|solutionrelative:innim 1.2\\pages\\page1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Pages\\MainPage.xaml.cs",
+              "DocumentMoniker": "F:\\INNIM 1.2\\INNIM 1.2\\INNIM 1.2\\Pages\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "INNIM 1.2\\Pages\\MainPage.xaml.cs",
+              "ToolTip": "F:\\INNIM 1.2\\INNIM 1.2\\INNIM 1.2\\Pages\\MainPage.xaml.cs",
+              "RelativeToolTip": "INNIM 1.2\\Pages\\MainPage.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAiwBwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T16:57:28.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "F:\\INNIM 1.2\\INNIM 1.2\\INNIM 1.2\\Pages\\MainPage.xaml",
+              "RelativeDocumentMoniker": "INNIM 1.2\\Pages\\MainPage.xaml",
+              "ToolTip": "F:\\INNIM 1.2\\INNIM 1.2\\INNIM 1.2\\Pages\\MainPage.xaml",
+              "RelativeToolTip": "INNIM 1.2\\Pages\\MainPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-11T16:57:24.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Page1.xaml",
+              "DocumentMoniker": "F:\\INNIM 1.2\\INNIM 1.2\\INNIM 1.2\\Pages\\Page1.xaml",
+              "RelativeDocumentMoniker": "INNIM 1.2\\Pages\\Page1.xaml",
+              "ToolTip": "F:\\INNIM 1.2\\INNIM 1.2\\INNIM 1.2\\Pages\\Page1.xaml",
+              "RelativeToolTip": "INNIM 1.2\\Pages\\Page1.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-11T15:23:41.879Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="clients">
+    <Key>
+      <PropertyRef Name="id_client" />
+    </Key>
+    <Property Name="id_client" Type="Int32" Nullable="false" />
+    <Property Name="name_client" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="phone_client" Type="String" MaxLength="11" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="zakazi" Relationship="Self.FK_zakazi_clients" FromRole="clients" ToRole="zakazi" />
+  </EntityType>
+  <EntityType Name="programmisti">
+    <Key>
+      <PropertyRef Name="id_programmista" />
+    </Key>
+    <Property Name="id_programmista" Type="Int32" Nullable="false" />
+    <Property Name="name_programmista" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="xp_work" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="specialist" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="zakazi_programista" Relationship="Self.FK_zakazi_programista_programmisti" FromRole="programmisti" ToRole="zakazi_programista" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="zakazi">
+    <Key>
+      <PropertyRef Name="id_zakaza" />
+    </Key>
+    <Property Name="id_zakaza" Type="Int32" Nullable="false" />
+    <Property Name="id_client" Type="Int32" />
+    <Property Name="info" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <Property Name="date_create" Type="DateTime" Precision="0" />
+    <Property Name="cost" Type="Decimal" Precision="18" Scale="0" />
+    <NavigationProperty Name="clients" Relationship="Self.FK_zakazi_clients" FromRole="zakazi" ToRole="clients" />
+    <NavigationProperty Name="zakazi_programista" Relationship="Self.FK_zakazi_programista_zakazi" FromRole="zakazi" ToRole="zakazi_programista" />
+  </EntityType>
+  <EntityType Name="zakazi_programista">
+    <Key>
+      <PropertyRef Name="nomer_zakaza" />
+    </Key>
+    <Property Name="nomer_zakaza" Type="Int32" Nullable="false" />
+    <Property Name="id_zakaza" Type="Int32" />
+    <Property Name="id_programmista" Type="Int32" />
+    <Property Name="date_prinatia" Type="DateTime" Precision="0" />
+    <Property Name="status" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="programmisti" Relationship="Self.FK_zakazi_programista_programmisti" FromRole="zakazi_programista" ToRole="programmisti" />
+    <NavigationProperty Name="zakazi" Relationship="Self.FK_zakazi_programista_zakazi" FromRole="zakazi_programista" ToRole="zakazi" />
+  </EntityType>
+  <Association Name="FK_zakazi_clients">
+    <End Role="clients" Type="Self.clients" Multiplicity="0..1" />
+    <End Role="zakazi" Type="Self.zakazi" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="clients">
+        <PropertyRef Name="id_client" />
+      </Principal>
+      <Dependent Role="zakazi">
+        <PropertyRef Name="id_client" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_zakazi_programista_programmisti">
+    <End Role="programmisti" Type="Self.programmisti" Multiplicity="0..1" />
+    <End Role="zakazi_programista" Type="Self.zakazi_programista" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="programmisti">
+        <PropertyRef Name="id_programmista" />
+      </Principal>
+      <Dependent Role="zakazi_programista">
+        <PropertyRef Name="id_programmista" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_zakazi_programista_zakazi">
+    <End Role="zakazi" Type="Self.zakazi" Multiplicity="0..1" />
+    <End Role="zakazi_programista" Type="Self.zakazi_programista" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="zakazi">
+        <PropertyRef Name="id_zakaza" />
+      </Principal>
+      <Dependent Role="zakazi_programista">
+        <PropertyRef Name="id_zakaza" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DBEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="clients" EntityType="Self.clients" />
+    <EntitySet Name="programmisti" EntityType="Self.programmisti" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="zakazi" EntityType="Self.zakazi" />
+    <EntitySet Name="zakazi_programista" EntityType="Self.zakazi_programista" />
+    <AssociationSet Name="FK_zakazi_clients" Association="Self.FK_zakazi_clients">
+      <End Role="clients" EntitySet="clients" />
+      <End Role="zakazi" EntitySet="zakazi" />
+    </AssociationSet>
+    <AssociationSet Name="FK_zakazi_programista_programmisti" Association="Self.FK_zakazi_programista_programmisti">
+      <End Role="programmisti" EntitySet="programmisti" />
+      <End Role="zakazi_programista" EntitySet="zakazi_programista" />
+    </AssociationSet>
+    <AssociationSet Name="FK_zakazi_programista_zakazi" Association="Self.FK_zakazi_programista_zakazi">
+      <End Role="zakazi" EntitySet="zakazi" />
+      <End Role="zakazi_programista" EntitySet="zakazi_programista" />
+    </AssociationSet>
+    <FunctionImport Name="sp_alterdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_creatediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_dropdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagramdefinition">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagrams">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_renamediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="new_diagramname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_upgraddiagrams" />
+  </EntityContainer>
+</Schema>

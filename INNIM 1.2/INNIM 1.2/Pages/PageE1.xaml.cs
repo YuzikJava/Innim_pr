@@ -39,13 +39,13 @@ namespace INNIM_1._2.Pages
         }
         private void BtnSave_Click(object sender, RoutedEventArgs e)
         {
-            p1.status = comboBox1.SelectedValue.ToString();
-            if (checkNew)
-            {
-                Connect.c.zakazi_programista.Add(p1);
-            }
             try
             {
+                if (checkNew)
+                {
+                    Connect.c.zakazi_programista.Add(p1);
+                }
+                p1.status = comboBox1.SelectedValue.ToString();
                 Connect.c.SaveChanges();
                 Window.GetWindow(this)?.Close();
             }

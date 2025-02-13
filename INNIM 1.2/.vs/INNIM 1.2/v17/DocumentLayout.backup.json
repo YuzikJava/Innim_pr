@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "F:\\INNIM 1.2\\INNIM 1.2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EDF040B1-410D-4580-9F91-AEBE29EF0AC1}|INNIM 1.2\\INNIM 1.2.csproj|f:\\innim 1.2\\innim 1.2\\innim 1.2\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EDF040B1-410D-4580-9F91-AEBE29EF0AC1}|INNIM 1.2\\INNIM 1.2.csproj|solutionrelative:innim 1.2\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EDF040B1-410D-4580-9F91-AEBE29EF0AC1}|INNIM 1.2\\INNIM 1.2.csproj|f:\\innim 1.2\\innim 1.2\\innim 1.2\\pages\\pagee2.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{EDF040B1-410D-4580-9F91-AEBE29EF0AC1}|INNIM 1.2\\INNIM 1.2.csproj|solutionrelative:innim 1.2\\pages\\pagee2.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EDF040B1-410D-4580-9F91-AEBE29EF0AC1}|INNIM 1.2\\INNIM 1.2.csproj|f:\\innim 1.2\\innim 1.2\\innim 1.2\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{EDF040B1-410D-4580-9F91-AEBE29EF0AC1}|INNIM 1.2\\INNIM 1.2.csproj|solutionrelative:innim 1.2\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{EDF040B1-410D-4580-9F91-AEBE29EF0AC1}|INNIM 1.2\\INNIM 1.2.csproj|f:\\innim 1.2\\innim 1.2\\innim 1.2\\pages\\pagee3.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{EDF040B1-410D-4580-9F91-AEBE29EF0AC1}|INNIM 1.2\\INNIM 1.2.csproj|solutionrelative:innim 1.2\\pages\\pagee3.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EDF040B1-410D-4580-9F91-AEBE29EF0AC1}|INNIM 1.2\\INNIM 1.2.csproj|f:\\innim 1.2\\innim 1.2\\innim 1.2\\pages\\page1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{EDF040B1-410D-4580-9F91-AEBE29EF0AC1}|INNIM 1.2\\INNIM 1.2.csproj|solutionrelative:innim 1.2\\pages\\page1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{EDF040B1-410D-4580-9F91-AEBE29EF0AC1}|INNIM 1.2\\INNIM 1.2.csproj|f:\\innim 1.2\\innim 1.2\\innim 1.2\\pages\\pagee4.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{EDF040B1-410D-4580-9F91-AEBE29EF0AC1}|INNIM 1.2\\INNIM 1.2.csproj|solutionrelative:innim 1.2\\pages\\pagee4.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDF040B1-410D-4580-9F91-AEBE29EF0AC1}|INNIM 1.2\\INNIM 1.2.csproj|F:\\INNIM 1.2\\INNIM 1.2\\innim 1.2\\pages\\page3.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDF040B1-410D-4580-9F91-AEBE29EF0AC1}|INNIM 1.2\\INNIM 1.2.csproj|solutionrelative:innim 1.2\\pages\\page3.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDF040B1-410D-4580-9F91-AEBE29EF0AC1}|INNIM 1.2\\INNIM 1.2.csproj|F:\\INNIM 1.2\\INNIM 1.2\\innim 1.2\\pages\\page2.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{EDF040B1-410D-4580-9F91-AEBE29EF0AC1}|INNIM 1.2\\INNIM 1.2.csproj|solutionrelative:innim 1.2\\pages\\page2.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,44 +30,70 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Pages\\MainPage.xaml.cs",
-              "DocumentMoniker": "F:\\INNIM 1.2\\INNIM 1.2\\INNIM 1.2\\Pages\\MainPage.xaml.cs",
-              "RelativeDocumentMoniker": "INNIM 1.2\\Pages\\MainPage.xaml.cs",
-              "ToolTip": "F:\\INNIM 1.2\\INNIM 1.2\\INNIM 1.2\\Pages\\MainPage.xaml.cs",
-              "RelativeToolTip": "INNIM 1.2\\Pages\\MainPage.xaml.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAiwBwAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "PageE4.xaml.cs",
+              "DocumentMoniker": "F:\\INNIM 1.2\\INNIM 1.2\\INNIM 1.2\\Pages\\PageE4.xaml.cs",
+              "RelativeDocumentMoniker": "INNIM 1.2\\Pages\\PageE4.xaml.cs",
+              "ToolTip": "F:\\INNIM 1.2\\INNIM 1.2\\INNIM 1.2\\Pages\\PageE4.xaml.cs",
+              "RelativeToolTip": "INNIM 1.2\\Pages\\PageE4.xaml.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwCwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T16:57:28.396Z",
+              "WhenOpened": "2025-02-13T06:01:51.645Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MainPage.xaml",
-              "DocumentMoniker": "F:\\INNIM 1.2\\INNIM 1.2\\INNIM 1.2\\Pages\\MainPage.xaml",
-              "RelativeDocumentMoniker": "INNIM 1.2\\Pages\\MainPage.xaml",
-              "ToolTip": "F:\\INNIM 1.2\\INNIM 1.2\\INNIM 1.2\\Pages\\MainPage.xaml",
-              "RelativeToolTip": "INNIM 1.2\\Pages\\MainPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-11T16:57:24.959Z",
+              "Title": "PageE3.xaml.cs",
+              "DocumentMoniker": "F:\\INNIM 1.2\\INNIM 1.2\\INNIM 1.2\\Pages\\PageE3.xaml.cs",
+              "RelativeDocumentMoniker": "INNIM 1.2\\Pages\\PageE3.xaml.cs",
+              "ToolTip": "F:\\INNIM 1.2\\INNIM 1.2\\INNIM 1.2\\Pages\\PageE3.xaml.cs",
+              "RelativeToolTip": "INNIM 1.2\\Pages\\PageE3.xaml.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAA1wCwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T06:01:42.565Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Page1.xaml",
-              "DocumentMoniker": "F:\\INNIM 1.2\\INNIM 1.2\\INNIM 1.2\\Pages\\Page1.xaml",
-              "RelativeDocumentMoniker": "INNIM 1.2\\Pages\\Page1.xaml",
-              "ToolTip": "F:\\INNIM 1.2\\INNIM 1.2\\INNIM 1.2\\Pages\\Page1.xaml",
-              "RelativeToolTip": "INNIM 1.2\\Pages\\Page1.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-11T15:23:41.879Z",
+              "DocumentIndex": 0,
+              "Title": "PageE2.xaml.cs",
+              "DocumentMoniker": "F:\\INNIM 1.2\\INNIM 1.2\\INNIM 1.2\\Pages\\PageE2.xaml.cs",
+              "RelativeDocumentMoniker": "INNIM 1.2\\Pages\\PageE2.xaml.cs",
+              "ToolTip": "F:\\INNIM 1.2\\INNIM 1.2\\INNIM 1.2\\Pages\\PageE2.xaml.cs",
+              "RelativeToolTip": "INNIM 1.2\\Pages\\PageE2.xaml.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAQwCwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T06:01:22.282Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Page2.xaml.cs",
+              "DocumentMoniker": "F:\\INNIM 1.2\\INNIM 1.2\\INNIM 1.2\\Pages\\Page2.xaml.cs",
+              "RelativeDocumentMoniker": "INNIM 1.2\\Pages\\Page2.xaml.cs",
+              "ToolTip": "F:\\INNIM 1.2\\INNIM 1.2\\INNIM 1.2\\Pages\\Page2.xaml.cs",
+              "RelativeToolTip": "INNIM 1.2\\Pages\\Page2.xaml.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAIwFQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T05:31:11.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Pages\\Page3.xaml.cs",
+              "DocumentMoniker": "F:\\INNIM 1.2\\INNIM 1.2\\INNIM 1.2\\Pages\\Page3.xaml.cs",
+              "RelativeDocumentMoniker": "INNIM 1.2\\Pages\\Page3.xaml.cs",
+              "ToolTip": "F:\\INNIM 1.2\\INNIM 1.2\\INNIM 1.2\\Pages\\Page3.xaml.cs",
+              "RelativeToolTip": "INNIM 1.2\\Pages\\Page3.xaml.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAiwEgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T05:30:55.233Z"
             }
           ]
         }

@@ -37,12 +37,12 @@ namespace INNIM_1._2.Pages
         }
         private void BtnSave_Click(object sender, RoutedEventArgs e)
         {
-            if (checkNew)
-            {
-                Connect.c.programmisti.Add(p3);
-            }
             try
             {
+                if (checkNew)
+                {
+                    Connect.c.programmisti.Add(p3);
+                }
                 Connect.c.SaveChanges();
                 Window.GetWindow(this)?.Close();
             }

@@ -24,26 +24,12 @@ namespace INNIM_1._2.Pages
         public Page2()
         {
             InitializeComponent();
-            try
-            {
-                Z.ItemsSource = Connect.context.zakazi.ToList();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
+            Z.ItemsSource = Connect.context.zakazi.ToList();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            try
-            {
-                Z.ItemsSource = Connect.context.zakazi.ToList();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
+            Z.ItemsSource = Connect.context.zakazi.ToList();
         }
         Window1 window = new Window1();
         private void EditP4_Click(object sender, RoutedEventArgs e)

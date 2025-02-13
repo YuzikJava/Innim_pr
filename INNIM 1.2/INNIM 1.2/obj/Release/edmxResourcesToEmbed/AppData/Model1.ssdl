@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище DBModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="clients">
+    <Key>
+      <PropertyRef Name="id_client" />
+    </Key>
+    <Property Name="id_client" Type="int" Nullable="false" />
+    <Property Name="name_client" Type="nvarchar" MaxLength="50" />
+    <Property Name="phone_client" Type="nvarchar" MaxLength="11" />
+  </EntityType>
+  <EntityType Name="programmisti">
+    <Key>
+      <PropertyRef Name="id_programmista" />
+    </Key>
+    <Property Name="id_programmista" Type="int" Nullable="false" />
+    <Property Name="name_programmista" Type="nvarchar" MaxLength="50" />
+    <Property Name="xp_work" Type="nvarchar" MaxLength="50" />
+    <Property Name="specialist" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="zakazi">
+    <Key>
+      <PropertyRef Name="id_zakaza" />
+    </Key>
+    <Property Name="id_zakaza" Type="int" Nullable="false" />
+    <Property Name="id_client" Type="int" />
+    <Property Name="info" Type="nvarchar" MaxLength="2000" />
+    <Property Name="date_create" Type="date" />
+    <Property Name="cost" Type="decimal" Precision="18" Scale="0" />
+  </EntityType>
+  <EntityType Name="zakazi_programista">
+    <Key>
+      <PropertyRef Name="nomer_zakaza" />
+    </Key>
+    <Property Name="nomer_zakaza" Type="int" Nullable="false" />
+    <Property Name="id_zakaza" Type="int" />
+    <Property Name="id_programmista" Type="int" />
+    <Property Name="date_prinatia" Type="date" />
+    <Property Name="status" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_zakazi_clients">
+    <End Role="clients" Type="Self.clients" Multiplicity="0..1" />
+    <End Role="zakazi" Type="Self.zakazi" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="clients">
+        <PropertyRef Name="id_client" />
+      </Principal>
+      <Dependent Role="zakazi">
+        <PropertyRef Name="id_client" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_zakazi_programista_programmisti">
+    <End Role="programmisti" Type="Self.programmisti" Multiplicity="0..1" />
+    <End Role="zakazi_programista" Type="Self.zakazi_programista" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="programmisti">
+        <PropertyRef Name="id_programmista" />
+      </Principal>
+      <Dependent Role="zakazi_programista">
+        <PropertyRef Name="id_programmista" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_zakazi_programista_zakazi">
+    <End Role="zakazi" Type="Self.zakazi" Multiplicity="0..1" />
+    <End Role="zakazi_programista" Type="Self.zakazi_programista" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="zakazi">
+        <PropertyRef Name="id_zakaza" />
+      </Principal>
+      <Dependent Role="zakazi_programista">
+        <PropertyRef Name="id_zakaza" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="fn_diagramobjects" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int" />
+  <Function Name="sp_alterdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_creatediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_dropdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagramdefinition" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_renamediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="new_diagramname" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_upgraddiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <EntityContainer Name="Хранилище DBModelContainer">
+    <EntitySet Name="clients" EntityType="Self.clients" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="programmisti" EntityType="Self.programmisti" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="zakazi" EntityType="Self.zakazi" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="zakazi_programista" EntityType="Self.zakazi_programista" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_zakazi_clients" Association="Self.FK_zakazi_clients">
+      <End Role="clients" EntitySet="clients" />
+      <End Role="zakazi" EntitySet="zakazi" />
+    </AssociationSet>
+    <AssociationSet Name="FK_zakazi_programista_programmisti" Association="Self.FK_zakazi_programista_programmisti">
+      <End Role="programmisti" EntitySet="programmisti" />
+      <End Role="zakazi_programista" EntitySet="zakazi_programista" />
+    </AssociationSet>
+    <AssociationSet Name="FK_zakazi_programista_zakazi" Association="Self.FK_zakazi_programista_zakazi">
+      <End Role="zakazi" EntitySet="zakazi" />
+      <End Role="zakazi_programista" EntitySet="zakazi_programista" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

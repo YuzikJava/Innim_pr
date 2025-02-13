@@ -24,26 +24,12 @@ namespace INNIM_1._2.Pages
         public Page3()
         {
             InitializeComponent();
-            try
-            {
-                P.ItemsSource = Connect.context.programmisti.ToList();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
+            P.ItemsSource = Connect.context.programmisti.ToList();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            try
-            {
-                P.ItemsSource = Connect.context.programmisti.ToList();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
+            P.ItemsSource = Connect.context.programmisti.ToList();
         }
         Window1 window = new Window1();
         private void EditP5_Click(object sender, RoutedEventArgs e)
@@ -92,7 +78,9 @@ namespace INNIM_1._2.Pages
         {
             if (LoginPage.user == true)
             {
+                Window1 window = new Window1();
                 Nav.frame2.Navigate(new PageE3(null));
+                window.Show();
             }
             else
                 MessageBox.Show("Отказано в доступе", "Ошибка");

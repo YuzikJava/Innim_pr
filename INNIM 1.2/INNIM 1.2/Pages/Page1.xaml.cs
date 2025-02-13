@@ -28,6 +28,7 @@ namespace INNIM_1._2.Pages
             try
             {
                 ZP.ItemsSource = Connect.context.zakazi_programista.ToList();
+
             }
             catch (Exception ex)
             {
@@ -37,15 +38,8 @@ namespace INNIM_1._2.Pages
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            try
-            {
-                ZP.ItemsSource = Connect.context.zakazi_programista.ToList().OrderBy(x => x.nomer_zakaza);
-                ZP.ItemsSource = Connect.context.zakazi_programista.ToList().OrderBy(x => x.status);
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
+            ZP.ItemsSource = Connect.context.zakazi_programista.ToList().OrderBy(x => x.nomer_zakaza);
+            ZP.ItemsSource = Connect.context.zakazi_programista.ToList().OrderBy(x => x.status);
         }
         Window1 window = new Window1();
         private void EditP1_Click(object sender, RoutedEventArgs e)

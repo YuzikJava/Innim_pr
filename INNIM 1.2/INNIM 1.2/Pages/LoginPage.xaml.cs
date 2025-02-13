@@ -30,46 +30,72 @@ namespace INNIM_1._2.Pages
             admin = user = false;
         }
 
+        enum access
+        {
+            ADMIN,
+            USER
+        }
+
         public static bool admin = false;
         public static bool user = false;
 
-        private Dictionary<string, string> users = new Dictionary<string, string>
+        private Dictionary<string, KeyValuePair<string, access>> users = new Dictionary<string, KeyValuePair<string, access>>
         {
-            { "admin", "admin" },
-            { "user", ""}
+            { "admin", new KeyValuePair<string, access>("admin", access.ADMIN) },
+            { "user", new KeyValuePair<string, access>("", access.USER)}
         };
 
         public void BtnLogin_Click(object sender, RoutedEventArgs e)
         {
-            admin = user = false;
-            string login = Log.Text;
-            string password = Pass.Password;
-            if (users.TryGetValue(login, out var storedPassword))
+            //admin = user = false;
+            //string login = Log.Text;
+            //string password = Pass.Password;
+            //if (users.TryGetValue(login, out var storedPassword))
+            //{
+            //    if (storedPassword == password)
+            //    {
+            //        if (login == "admin")
+            //        {
+            //            MessageBox.Show($"Вы вошли как Администратор");
+            //            admin = user = true;
+            //        }
+            //        else
+            //        {
+            //            MessageBox.Show($"Вы вошли как Пользователь");
+            //            user = true;
+            //        }
+            //        Nav.Mframe.Navigate(new MainPage());
+            //    }
+            //    else
+            //    {
+            //        MessageBox.Show("Неверный пароль.");
+            //    }
+            //}
+            //else
+            //{
+            //    MessageBox.Show("Пользователь не найден.");
+            //}
+            foreach(var item in users)
             {
-                if (storedPassword == password)
+                if (item.Key == Log.Text && item.Value.Key == Pass.Password)
                 {
-                    if (login == "admin")
+                    if (item.Value.Value == access.ADMIN)
                     {
-                        MessageBox.Show($"Вы вошли как Администратор");
                         admin = user = true;
+                        Nav.Mframe.Navigate(new MainPage());
+                        Log.Text = Pass.Password = "";
+                        return;
                     }
                     else
                     {
-                        MessageBox.Show($"Вы вошли как Пользователь");
                         user = true;
+                        Nav.Mframe.Navigate(new MainPage());
+                        Log.Text = Pass.Password = "";
+                        return;
                     }
-                    Nav.Mframe.Navigate(new MainPage());
-                }
-                else
-                {
-                    MessageBox.Show("Неверный пароль.");
                 }
             }
-            else
-            {
-                MessageBox.Show("Пользователь не найден.");
-            }
-            Log.Text = Pass.Password = "";
+            MessageBox.Show("Неверный логин или пароль.");
         }
     }
 }

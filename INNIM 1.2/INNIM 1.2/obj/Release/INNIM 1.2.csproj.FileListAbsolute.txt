@@ -1,0 +1,52 @@
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\bin\Release\DB.mdf
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\bin\Release\DB_log.ldf
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\bin\Release\INNIM 1.2.exe.config
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\bin\Release\INNIM 1.2.exe.manifest
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\bin\Release\INNIM 1.2.application
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\bin\Release\INNIM 1.2.exe
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\bin\Release\INNIM 1.2.pdb
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\bin\Release\EntityFramework.dll
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\bin\Release\EntityFramework.xml
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\bin\Release\ru\EntityFramework.resources.dll
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Release\INNIM 1.2.csproj.AssemblyReference.cache
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Release\INNIM 1.2.csproj.SuggestedBindingRedirects.cache
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Release\INNIM 1.2.csproj.ResolveComReference.cache
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Release\MainWindow.g.cs
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Release\Pages\LoginPage.g.cs
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Release\Pages\MainPage.g.cs
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Release\Pages\Page1.g.cs
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Release\Pages\Page2.g.cs
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Release\Pages\Page3.g.cs
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Release\Pages\Page4.g.cs
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Release\Pages\PageE1.g.cs
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Release\Pages\PageE2.g.cs
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Release\Pages\PageE3.g.cs
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Release\Pages\PageE4.g.cs
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Release\Window1.g.cs
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Release\App.g.cs
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Release\INNIM 1.2_Content.g.cs
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Release\INNIM 1.2_MarkupCompile.cache
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Release\INNIM 1.2_MarkupCompile.lref
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Release\MainWindow.baml
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Release\Pages\LoginPage.baml
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Release\Pages\MainPage.baml
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Release\Pages\Page1.baml
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Release\Pages\Page2.baml
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Release\Pages\Page3.baml
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Release\Pages\Page4.baml
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Release\Pages\PageE1.baml
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Release\Pages\PageE2.baml
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Release\Pages\PageE3.baml
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Release\Pages\PageE4.baml
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Release\Window1.baml
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Release\INNIM 1.2.g.resources
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Release\INNIM_1._2.Properties.Resources.resources
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Release\INNIM 1.2.csproj.GenerateResource.cache
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Release\INNIM 1.2.csproj.CoreCompileInputs.cache
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Release\INNIM 1.2.exe.manifest
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Release\INNIM 1.2.application
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Release\INNIM 1.2.csproj.CopyComplete
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Release\INNIM 1.2.exe
+C:\Users\Student.DESKTOP-QKGSV6O\Desktop\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Release\INNIM 1.2.pdb

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-F:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\
+E:\INNIM 1.2\INNIM 1.2\INNIM 1.2\obj\Debug\
 INNIM_1._2
 none
 false
 DEBUG;TRACE
-F:\INNIM 1.2\INNIM 1.2\INNIM 1.2\App.xaml
+E:\INNIM 1.2\INNIM 1.2\INNIM 1.2\App.xaml
 121851315836
 41153342257
 28-944986394
-22-954465489
+22988915770
 MainWindow.xaml;Pages\LoginPage.xaml;Pages\MainPage.xaml;Pages\Page1.xaml;Pages\Page2.xaml;Pages\Page3.xaml;Pages\Page4.xaml;Pages\PageE1.xaml;Pages\PageE2.xaml;Pages\PageE3.xaml;Pages\PageE4.xaml;Window1.xaml;
 
-False
+True
 
